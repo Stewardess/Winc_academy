@@ -1,0 +1,51 @@
+.box-model-properties {
+    border: 2px solid rgb(255, 58, 117);
+    margin: 20px;
+    padding: 10px;
+}
+
+.center-title {
+    margin: 0 auto; 
+    width: 500px;
+}
+
+.navigation-links li{
+    display: inline;
+    margin: 10px;
+}
+
+
+/* Mobile */
+@media (min-width: 320px) {
+    header, nav, main, footer {
+        background-color: rgb(217, 255, 0);
+        font-size: 30px;
+    }   
+    
+    h1 {                                                                             
+        font-size: 30px;
+    }
+    .box-model-properties {
+        border: 5px solid rgb(0, 0, 0);
+        margin: 10px;
+        padding: 5px;
+    }
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+    header, nav, main, footer{
+        background-color: white;
+        font-size: 15px;
+        color: rgb(255, 58, 117); 
+    }    
+
+    h1{
+        font-size: 50px;
+    }
+    .box-model-properties {
+        border: 2px solid rgb(255, 58, 117);
+        margin: 20px;
+        padding: 10px;
+    }
+}
